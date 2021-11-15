@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes Shop</title>
+    <meta name="description" content="ENVÍO y DEVOLUCIÓN GRATIS | Descubre las últimas tendencias en ropa, calzado y complementos para mujer, hombre y niño">
+    <meta name="keywords" content="ropa, sudaderas, vestidos,zapatos,pantalones">
+    <meta name="robots" content="Index, NoFollow">
+    <meta name="author" content="Pablo Zambrano Muñoz">
+    <meta name="copyright" content="Pablo Zambrano Muñoz">
+    <META name="Revisit-after" content="1 days">
+</head>
+<body>
+    <div style="width: 600px; margin: 0 auto;">
+        <h2>Formulario</h2>
+        <form action="registro.php" method="get">
+               
+            
+                <h1>Work request</h1>
+
+<form action="../Base de datos.php" target="_blank">
+
+  <fieldset>
+
+    <legend>Personal Data</legend>
+
+    <p><label>Name: <input type="text" name="name"></label></p>
+    <p><label>Surname: <input type="text" name="surname"></label></p> 
+    <p><label for="fechas">Age</label> <input type="date" name="fecha1" id="fecha1"></p>
+    <p> <label>Town:  </label> <select name="Town" id="Town">
+        <option value="-1">Select Town</option>
+            <option value="1">Sevilla</option>
+            <option value="2">Asturias</option>
+            <option value="3">Cádiz</option>
+            <option value="4">Huelva</option>  
+            <option value="5">Madrid</option>
+            <option value="6">Barcelona</option>
+            <option value="7">Córdoba</option>
+            <option value="8">Granada</option>                                                  
+    </select></p>
+    <p><label for="Telephone">Telephone: </label><input type="number" name="Telephone" id="Telephone" required value="+34"></p>
+    
+  </fieldset>
+
+  <fieldset>
+
+    <legend>Some questions</legend>
+
+   
+    <p><span>You have worked previously? </span>
+        <input type="radio" name="question" id="question" 
+        value="Yes" checked><span>Yes</span>
+
+<input type="radio" name="question" id="question" 
+        value="No"><span>No</span></p>
+        <p><label for="fechas">Date of las work: </label><input type="date" name="lastjob" id="lastjob"></p>
+        <p>
+
+            <span>Social Medias:</span>
+      
+            <label><input type="checkbox" name="Instagram" id="Instagram" value="I"> Instagram</label>
+      
+            <label><input type="checkbox" name="Facebook" id="Facebook" value="F"> Facebook</label>
+      
+            <label><input type="checkbox" name="Tik Tok"id="Tik Tok"value="T"> Tik Tok</label>
+      
+            <label><input type="checkbox" name="Snapchat" id="Snapchat"value="S"> Snapchat</label>
+      
+          </p>
+          <p><label for="descripcion"><span style="text-align: justify;">Description:</span> </label><textarea name="descripcion" id="descripcion" rows="10" cols="50" maxlength="50">Own description for the position...</textarea></p>
+          <p><label for="email">Email</label><input type="email" name="email" id="email" required></p>
+  </fieldset>
+
+  <p>
+
+    <input type=submit value="Send the request ">
+
+  </p>
+
