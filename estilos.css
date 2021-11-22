@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font: bold 20px verdana, sans-serif;
+    color: rgb(55, 77, 59);
+}
+
+h2 {
+    font: bold 16px verdana, sans-serif;
+}
+
+header,  section, footer, aside, nav, article {
+    display: block  ;
+}
+
+body{
+    text-align: center;
+}
+#pablo{
+    color: rgb(250, 250, 140);
+    width: 600px;
+    height: 400px;
+}
+#capa{
+    width: 1000px;
+    margin: 15px auto;
+    text-align: left;
+    border: 10px solid gray;
+    height: 800px;
+    position: relative;
+}
+#capa1{
+    border: 3px solid black;
+}
+#head{
+    background-color: rgb(193, 228, 141);
+    padding: 20px;
+    height: 80px;
+}
+#div1{
+    float: left;
+    margin-left: 15px;
+}
+#div2{
+    float: left;
+    margin-left: 15px;
+}
+#subtitulo{
+    display: block;
+    margin-top: 20px;
+}
+#head {
+    background-color: rgb(130, 228, 130);
+    padding: 20px;
+    height: 80px;
+}
+#menu{
+    background: cornflowerblue;
+    border: 1px solid black;
+    margin-left: 0px;
+}
+
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+#capa1 {
+    background-color: rgb(253, 161, 127);
+}
+
+#capa1 {
+    display: block;
+    padding: 10px;
+}
+
+#capa1 {
+    color:rgb(56, 102, 145);
+    padding: 10px;
+}
+#capa2 {
+    background-color: rgb(253, 143, 103);
+}
+#capa3 {
+    width: 640px;
+    height: 300px;
+    background-color: rgb(156, 81, 81);
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+#texto1 {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#capa4 {
+    background-color: rgb(255, 150, 111);
+}
+#c4 {
+    float: left;
+    color:rgb(61, 110, 156);
+    margin-top: -10px;
+}
+
+#main {
+    float: left;
+    width: 660px;
+    margin: 20px;
+    color: rgb(238, 238, 139);
+}
+
+#column{
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+}
+#capa5 {
+    background: rgb(190, 190, 190);
+    width: 270px;
+    height: 600px;
+    float: left;
+}
+
+#d1 {
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid black;
+    height: 50px;
+}
+#img {
+    width: 20px;
+    height: 20px;
+}
+#linea {
+    position: relative;
+    margin: 10px;
+}
+#lista{
+    color: blue;
+    position: relative;
+    margin: 5px;
+}
+#c2{
+    background: grey;
+    border: 1px solid black;
+    margin-left: 0px;
+}
